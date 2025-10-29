@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BrowserApprovals",
   "resources": {
-    "hash": "sha256-jk+pEYG8b5E3g4M/LrgS4U9jCq1nAuIsS+X6nKsu2Do=",
+    "hash": "sha256-mY0D9acYqJfbRfmCBbfZPY2BESGGUahXUGyjGZC1kmA=",
     "fingerprinting": {
       "Blazored.LocalStorage.aspas9o5sr.wasm": "Blazored.LocalStorage.wasm",
       "Blazored.SessionStorage.dirlofawuj.wasm": "Blazored.SessionStorage.wasm",
@@ -55,9 +55,9 @@
       "System.8rv0tdtrxz.wasm": "System.wasm",
       "System.Private.CoreLib.svctd7dfov.wasm": "System.Private.CoreLib.wasm",
       "ApprovalsDataModels.uec0lfkiuh.wasm": "ApprovalsDataModels.wasm",
-      "BrowserApprovals.42zgit450g.wasm": "BrowserApprovals.wasm",
+      "BrowserApprovals.xlzhlkftox.wasm": "BrowserApprovals.wasm",
       "dotnet.native.gipsjmki06.js": "dotnet.native.js",
-      "dotnet.native.3c4wrsygwi.wasm": "dotnet.native.wasm",
+      "dotnet.native.gb87ky6ihb.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.drv0pr9n5o.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
@@ -71,7 +71,7 @@
       "dotnet.runtime.drv0pr9n5o.js": "sha256-yfXUv1l/B489E8p12JxUvxly0JvHL9CCsoZUDlfGH9c="
     },
     "wasmNative": {
-      "dotnet.native.3c4wrsygwi.wasm": "sha256-DRePkk2h0QGJJUvfOWVX2q9oVF2BtvzH1ta3I46Jjs4="
+      "dotnet.native.gb87ky6ihb.wasm": "sha256-3GH3gOzf3hlJL65eD5+7uhvRGf6d0FtLx8gYn+tH8Rk="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -131,7 +131,7 @@
       "System.8rv0tdtrxz.wasm": "sha256-xMF0eauQ5DkSzUozHLFFMQnL6DSJO09nJLtgag+Dzbw=",
       "System.Private.CoreLib.svctd7dfov.wasm": "sha256-eB9KhNVC7L4Nmi47D/Qikowcq3hVUK5AmQmhVxf0FmY=",
       "ApprovalsDataModels.uec0lfkiuh.wasm": "sha256-1s953lvoKEZmxA3y9ihIrCDNb1FKAKVPTlzJc+3jspQ=",
-      "BrowserApprovals.42zgit450g.wasm": "sha256-hIRu7MF7BbijMaSn2epqQkMCCQK/fOAIZwBHHVQKMIM="
+      "BrowserApprovals.xlzhlkftox.wasm": "sha256-hQNX+Wu6Ih5Nd5SWrsf4Bwf8qY/EhTtwbm/HRQ4vDLk="
     },
     "assembly": {}
   },
