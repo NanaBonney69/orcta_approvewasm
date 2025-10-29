@@ -5,11 +5,47 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BrowserApprovals</title>
-    <base href="/orcta_approvewasm/" />
+    <base href="/" />
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
+
     <link href="BrowserApprovals.styles.css" rel="stylesheet" />
+    <style>
+        .top-menu {
+            display: flex;
+        }
+
+
+        @media (min-width: 721px) {
+            .top-menu {
+                display: block;
+            }
+        }
+
+        .toggler-left-status {
+            width: 10%
+        }
+
+        @media only screen and (max-width: 540px) {
+            .toggler-left-status {
+                width: 100%;
+            }
+        }
+
+
+        .toggler-right-status {
+            width: 90%
+        }
+
+        @media (max-width: 540px) {
+            .toggler-rightt-status {
+                width: 100%;
+                margin-top: 2px;
+            }
+        }
+    </style>
 </head>
 
 <body>
