@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BrowserApprovals</title>
-    <base href="/orcta_approvewasm/" />
+    <base href="/" />
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css" />
@@ -13,6 +13,166 @@
 
     <link href="BrowserApprovals.styles.css" rel="stylesheet" />
     <style>
+
+        .submenu-overlay {
+            position: absolute; /* fixed */
+            top: 170px; /* adjust based on your top menu height */
+            left: 0;
+            width: 100%;
+            height: calc(60vh - 170px); /* fill below the top bar */
+            background-color: white; /* or semi-transparent */
+            z-index: 9999;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            justify-content: center;
+        }
+
+
+        @media (min-width: 1140px) {
+            .submenu-overlay {
+                width: 1320px;
+                left: calc((100vw - 1320px)/2);
+                /*transform: translateX(22.75%);*/
+            }
+        }
+
+        @media (max-width: 1140px) {
+            .submenu-overlay {
+                width: 1140px;
+                left: calc((100vw - 1140px)/2);
+                /*transform: translateX(10%);*/
+            }
+        }
+
+        @media (max-width: 960px) {
+            .submenu-overlay {
+                width: 960px;
+                left: calc((100vw - 960px)/2);
+                /*transform: translateX(4.75%);*/
+            }
+        }
+
+        @media (max-width: 720px) {
+            .submenu-overlay {
+                width: 720px;
+                left: calc((100vw - 720px)/2);
+            }
+        }
+
+
+        @media (max-width: 540px) {
+            .submenu-overlay {
+                width: 100%;
+                left: 0;
+                /*transform: translateX(0%);*/
+            }
+        }
+
+
+
+        .disabled-link {
+            pointer-events: none;
+            color: gray;
+            text-decoration: none;
+            cursor: not-allowed;
+        }
+
+
+
+        .dashboardmenu-side-align {
+            width: 8.333%
+        }
+
+        @media (min-width: 200px) {
+            .dashboardmenu-side-align {
+                width: 0%;
+                left: 0;
+            }
+        }
+
+        @media (max-width: 540px) {
+            .dashboardmenu-side-align {
+                width: 0%;
+                left: 0;
+            }
+        }
+
+
+        @media (max-width: 720px) {
+            .dashboardmenu-side-align {
+                width: 0%;
+                left: 0;
+            }
+        }
+
+
+        @media (max-width: 960px) {
+            .dashboardmenu-side-align {
+                width: 5%;
+            }
+        }
+
+        @media (min-width: 1140px) {
+            .dashboardmenu-side-align {
+                width: 7.5%;
+            }
+        }
+
+        @media (max-width: 1140px) {
+            .dashboardmenu-side-align {
+                width: 8.333%
+            }
+        }
+
+
+
+        .dashboardmenu-middle-align {
+            width: 83.33%
+        }
+
+
+        @media (min-width: 200px) {
+            .dashboardmenu-middle-align {
+                width: 100%;
+                left: 0;
+            }
+        }
+
+        @media (max-width: 540px) {
+            .dashboardmenu-middle-align {
+                width: 100%;
+                left: 0;
+            }
+        }
+
+        @media (max-width: 720px) {
+            .dashboardmenu-middle-align {
+                width: 100%;
+                left: 0;
+            }
+        }
+
+        @media (max-width: 960px) {
+
+            .dashboardmenu-middle-align {
+                width:90%;
+            }
+        }
+
+
+        @media (max-width: 1140px) {
+            .dashboardmenu-middle-align {
+                width: 85%
+            }
+        }
+
+        @media (min-width: 1140px) {
+            .dashboardmenu-middle-align {
+                width: 83.33%;
+            }
+        }
+
+
+
         .top-menu {
             display: flex;
         }
@@ -66,6 +226,17 @@
 
 
     <script>
+        window.getElementHeight = (elementId) => {
+            const el = document.getElementById(elementId);
+            return el ? el.offsetHeight : -1;
+        };
+
+
+        window.getElementWidth = (elementId) => {
+            const el = document.getElementById(elementId);
+            return el ? eloffsetWidth : -1;
+        };
+
         window.setFocus = function (elementId) {
             const element = document.getElementById(elementId);
             if (element) {

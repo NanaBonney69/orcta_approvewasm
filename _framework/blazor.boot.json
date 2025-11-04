@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BrowserApprovals",
   "resources": {
-    "hash": "sha256-Z5jb2iaRPcp0tnYnxPtv3g6P/zPYERKXEZNz9oTxrcU=",
+    "hash": "sha256-IAqPBQPREwvq86oQ1EY07PjNVQFhtx8loTh3HhsPUhU=",
     "fingerprinting": {
       "Blazored.LocalStorage.aspas9o5sr.wasm": "Blazored.LocalStorage.wasm",
       "Blazored.SessionStorage.dirlofawuj.wasm": "Blazored.SessionStorage.wasm",
@@ -54,10 +54,10 @@
       "System.Threading.6wxzpv4ki1.wasm": "System.Threading.wasm",
       "System.8rv0tdtrxz.wasm": "System.wasm",
       "System.Private.CoreLib.svctd7dfov.wasm": "System.Private.CoreLib.wasm",
-      "ApprovalsDataModels.uec0lfkiuh.wasm": "ApprovalsDataModels.wasm",
-      "BrowserApprovals.8rn4fkiizg.wasm": "BrowserApprovals.wasm",
+      "ApprovalsDataModels.j6twh6th5z.wasm": "ApprovalsDataModels.wasm",
+      "BrowserApprovals.vg8vjzx273.wasm": "BrowserApprovals.wasm",
       "dotnet.native.gipsjmki06.js": "dotnet.native.js",
-      "dotnet.native.pqs82j5qp1.wasm": "dotnet.native.wasm",
+      "dotnet.native.ovieyjn2l7.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.drv0pr9n5o.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
@@ -71,7 +71,7 @@
       "dotnet.runtime.drv0pr9n5o.js": "sha256-yfXUv1l/B489E8p12JxUvxly0JvHL9CCsoZUDlfGH9c="
     },
     "wasmNative": {
-      "dotnet.native.pqs82j5qp1.wasm": "sha256-gYH+C3pCHJEaD39CV+xOXmz7V/HeGdQ0OvpXEij7UTo="
+      "dotnet.native.ovieyjn2l7.wasm": "sha256-7CrcYLSF0IG5XyDYF2Aed69uhoDeh8ANUaicJkkhm+U="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -130,8 +130,8 @@
       "System.Threading.6wxzpv4ki1.wasm": "sha256-qpTsdttgwFKu3sCPl9Qw0nYZISOGaHpAJFTWUzt9Xzw=",
       "System.8rv0tdtrxz.wasm": "sha256-xMF0eauQ5DkSzUozHLFFMQnL6DSJO09nJLtgag+Dzbw=",
       "System.Private.CoreLib.svctd7dfov.wasm": "sha256-eB9KhNVC7L4Nmi47D/Qikowcq3hVUK5AmQmhVxf0FmY=",
-      "ApprovalsDataModels.uec0lfkiuh.wasm": "sha256-1s953lvoKEZmxA3y9ihIrCDNb1FKAKVPTlzJc+3jspQ=",
-      "BrowserApprovals.8rn4fkiizg.wasm": "sha256-vM/kJH8wWKuOKJ4Z4q9Q6VHlHdV3z7K5nVTSiCYO//E="
+      "ApprovalsDataModels.j6twh6th5z.wasm": "sha256-u/QCG2nZTOs/qJ/nTP/mGG7Y/m93Q37PuVSCjj14+2A=",
+      "BrowserApprovals.vg8vjzx273.wasm": "sha256-YdSdK5nleGiUNjeH17/6o01bBaYxK7wloikt8D5fdr4="
     },
     "assembly": {}
   },
